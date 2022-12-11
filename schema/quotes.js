@@ -1,0 +1,3 @@
+const quoteSchema = {
+  type: "object",
+};

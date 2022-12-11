@@ -1,0 +1,36 @@
+{
+  "name": "trash-bird-distro-server",
+  "version": "1.0.0",
+  "description": "Backend for trash-bird website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuerteTurtle/trash-bird-distro-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FuerteTurtle/trash-bird-distro-server/issues"
+  },
+  "homepage": "https://github.com/FuerteTurtle/trash-bird-distro-server#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.13",
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20",
+    "prisma": "^4.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.7.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-jsonschema": "^1.1.6"
+  }
+}
